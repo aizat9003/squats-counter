@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    color: #000;
+    text-align: center;
+    background-image: url("img/the-gym.jpg");
+    background-size: cover; 
+    height: 100vh;
+    font-family: 'Lato', sans-serif;
+}
+
+.container {
+    background: #fff;
+    max-width: 80%;
+    margin: 0 auto;
+    border: 5px solid #C0C0C0;
+    border-radius: 5px;
+}
+
+#num-el {
+    font-size: 50px;
+}
+
+button {
+    color: #fff;
+    padding: 15px 30px;
+    border: none;
+    cursor: pointer;
+}
+
+#increment-btn {
+    background: #0000FF;
+    font-weight: 700;
+}
+
+#save-btn {
+    background: #008000;
+    font-weight: 700;
+}
